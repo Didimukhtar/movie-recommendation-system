@@ -2,5 +2,5 @@
 
 CONTRIBUTORS
 - [AL-MUKHTAR JAMILAT LADIDI](https://github.com/Didimukhtar)
-- [AGBAJE HABEEB]()
-- [OKECHUKWU]()
+- [AGBAJE HABEEB](https://github.com/Hab-eeb)
+- [CHUKWUDE OKECHUKWU](https://github.com/OkeyChukwude)

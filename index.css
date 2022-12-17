@@ -1,0 +1,34 @@
+ .heading {
+   background-color: antiquewhite;
+    text-align: center;
+    height: 60px;
+    padding-top: 25px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    width: min-content;
+  }
+  
+  tr:nth-child(even) {
+    background-color: antiquewhite;
+  }
+
+  .SN {
+    width: 5%;
+  }
+
+  footer {
+    background-color:antiquewhite;
+    height: 40px;
+    text-align: center;
+    padding: 8px;
+  }

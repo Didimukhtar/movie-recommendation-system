@@ -1,0 +1,32 @@
+html, body {
+    font-family: 'Inter', sans-serif;
+}
+
+.movie_card {
+    /* padding: 0 !important; */
+    /* width: 22rem;
+    margin:14px;  */
+    /* border-radius: 10px; */
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.movie_card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 25rem;
+}
+
+.movie_rating {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    right: 25px;
+    bottom: 88%;
+    font-size: 20px;
+    padding-left: 21px;
+    padding-top: 16px;
+}
+
+.movie_date {
+    color: rgba(0, 0, 0, 0.6)
+}

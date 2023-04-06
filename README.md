@@ -8,6 +8,11 @@ This is a movie recommendation system that helps users choose from a wide collec
 * [![React][React.js]][React-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
+
+Here's a link to the live demo:
+
+https://movie-recommender-rn4b.onrender.com/
+
 ## CONTRIBUTORS
 - [AL-MUKHTAR JAMILAT LADIDI](https://github.com/Didimukhtar) - Frontend Developer
 - [AGBAJE HABEEB](https://github.com/Hab-eeb) - Machine learning Engineer

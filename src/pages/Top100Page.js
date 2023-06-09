@@ -1,13 +1,13 @@
 import Container from "react-bootstrap/Container";
-import Header from "./components/Header";
 import Row from "react-bootstrap/Row";
-import { Movies } from "./movies";
-import MovieCard from "./components/MovieCard";
-import Footer from "./components/Footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import { Movies } from "../movies";
+import MovieCard from "../components/MovieCard";
 
-export default function App() {
-	return (
-		<Container fluid className='App bg-light'>
+const Top100Page = () => {
+    return (
+        <Container fluid className='App bg-light'>
 			<Header />
 			<Container className='heading bg-dark text-light mt-4'>
 				<h1 className="text-center">Top 100 Movies of All Time</h1>
@@ -24,6 +24,8 @@ export default function App() {
 				</Row>
 			</Container>
 			<Footer />
-		</Container>	
-	);
+		</Container>
+    )
 }
+
+export default Top100Page

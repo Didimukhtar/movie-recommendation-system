@@ -1,9 +1,18 @@
 import { Link } from "react-router-dom"
+import Header from "../components/Header.jsx"
+import Hero from "../components/Hero.jsx";
+import Features from "../components/Features.jsx";
+import Genres from "../components/Genres.jsx";
+import Footer from "../components/Footer.jsx";
 
 const LandingPage = () => {
     return (
         <div>
-            Welcome to the landing page. Checkout the <Link to="top100">Top 100 Movies of all time</Link>
+            <Header />
+            <Hero />
+            <Features />
+            <Genres />
+            <Footer />
         </div>
     )
 }

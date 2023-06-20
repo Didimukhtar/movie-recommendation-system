@@ -1,5 +1,5 @@
 .card-image {
-    background-image: url(${feature.backgroungImage});
+    background-image: url();
     background-size: cover;
     background-position: center;
     height: 17em;

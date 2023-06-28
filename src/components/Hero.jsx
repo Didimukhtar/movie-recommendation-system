@@ -9,7 +9,7 @@ export default function Hero(){
       <div className="hero-content">
         <h1>Discover Your Next Favorite Movie</h1>
         <div className='button-container'>
-        <Button variant="secondary">Get Started</Button>
+        <Button variant="secondary" href='recommend'>Get Started</Button>
         </div>
       </div>
     </Container>

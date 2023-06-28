@@ -1,9 +1,8 @@
-import { Link } from "react-router-dom"
-import Header from "../components/Header.jsx"
+import Header from "../components/Header"
 import Hero from "../components/Hero.jsx";
 import Features from "../components/Features.jsx";
 import Genres from "../components/Genres.jsx";
-import Footer from "../components/Footer.jsx";
+import Footer from "../components/Footer";
 
 const LandingPage = () => {
     return (

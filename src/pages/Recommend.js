@@ -1,14 +1,14 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Head from '../components/Head'
+import Header from '../components/Header'
 import Search from '../components/Search'
-import Foot from '../components/Foot'
+import Footer from '../components/Footer'
 
 const Recommend = () => {
   return (
     <div>
-      <Head />
+      <Header />
       <Search />
-      <Foot />
+      <Footer />
     </div>
   )
 }

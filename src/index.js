@@ -9,6 +9,7 @@ import {
 
 import LandingPage from './pages/LandingPage';
 import Top100Page from './pages/Top100Page';
+import Recommend from './pages/Recommend';
 
 
 const router = createBrowserRouter([
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
  {
   path: "/top100",
   element: <Top100Page />,
+ },
+ {
+  path: "/recommend",
+  element: <Recommend />,
  }
 ]);
  

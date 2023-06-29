@@ -7,9 +7,9 @@ import MovieCard from "../components/MovieCard";
 
 const Top100Page = () => {
     return (
-        <Container fluid className='App bg-light'>
+        <>
 			<Header />
-			<Container className='heading bg-dark text-light mt-4'>
+			<Container className='heading mt-2 mb-2'>
 				<h1 className="text-center">Top 100 Movies of All Time</h1>
 			</Container>
 			<Container fluid className="movies-list">
@@ -24,7 +24,7 @@ const Top100Page = () => {
 				</Row>
 			</Container>
 			<Footer />
-		</Container>
+		</>
     )
 }
 

@@ -7,9 +7,9 @@ import backgroundimg3 from '../../src/images/backgroundimg3.png';
 
 export default function Features(){
     const features = [
-        { id: 1, title: 'Top 100 Movies', description: 'Discover the top-rated movies of all time', backgroundImage: top100 },
-        { id: 2, title: 'Recommendation Page', description: 'Get personalized movie recommendations', backgroundImage: backgroundimg2 },
-        { id: 3, title: 'Another Feature', description: 'Explore more exciting features', backgroundImage: backgroundimg3 },
+        { id: 1, title: 'Top 100 Movies', description: 'Discover the top-rated movies of all time', backgroundImage: top100, link:'top100'},
+        { id: 2, title: 'Recommendation Page', description: 'Get personalized movie recommendations', backgroundImage: backgroundimg2, link: 'recommend' },
+        { id: 3, title: 'Another Feature', description: 'Explore more exciting features', backgroundImage: backgroundimg3, link: ''},
       ];
         return (
             <Container>
@@ -22,9 +22,11 @@ export default function Features(){
                 className="card-image"
                 style={{ backgroundImage: `url(${feature.backgroundImage})` }}
               />
+              {/*<Card.Img src={feature.backgroundImage}></Card.Img>*/}
               <Card.Body>
                 <Card.Title>{feature.title}</Card.Title>
                 <Card.Text>{feature.description}</Card.Text>
+                <Card.Link href={feature.link} className="stretched-link"></Card.Link>
               </Card.Body>
             </Card>
           </Col>

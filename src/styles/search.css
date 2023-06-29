@@ -5,3 +5,9 @@
 .button {
     margin-top: 10px;
 }
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(226, 220, 220);
+  }
